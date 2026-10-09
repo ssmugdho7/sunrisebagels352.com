@@ -28,7 +28,7 @@
 </section>
 <?php require __DIR__.'/library/offers.php'; ?>
 <section class="experience shell">
-  <div class="experience-image"><img src="assets/images/storefront.png" alt="Sunrise storefront at night"><div class="image-label"><span>3429</span><b>YOUR NEXT MORNING ROUTINE</b></div></div>
+  <div class="experience-image"><img src="assets/images/hero-storefront.jpg" alt="Sunrise Bagels and Deli storefront"><div class="image-label"><span>3429</span><b>YOUR NEXT MORNING ROUTINE</b></div></div>
   <div class="experience-copy"><span class="eyebrow">COME AS YOU ARE</span><h2>A local shop built to become a landmark.</h2><p>Bright mornings, quick service, classic deli flavors, and a brand that feels instantly familiar. Dine in, take out, order ahead, or let Sunrise feed the whole crew.</p><div class="stats"><div><strong>2</strong><span>Menus<br>Breakfast + Lunch</span></div><div><strong>1</strong><span>Easy stop<br>Morning to afternoon</span></div></div><a class="btn btn-dark" href="contact.php">Plan Your Visit</a></div>
 </section>
 <section class="loyalty"><div class="shell loyalty-inner"><div class="loyalty-icon">S</div><div><span class="eyebrow">COMING SOON</span><h2>Sunrise Rewards</h2><p>Turn regular mornings into perks. Configure your loyalty link in the owner dashboard when your program is ready.</p></div><a class="btn btn-gold" href="<?= e($s['rewards_url'] ?? '#') ?>">Join Rewards</a></div></section>
