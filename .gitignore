@@ -1,0 +1,19 @@
+# Hosting configuration and secrets stay on the server
+/config/
+.env
+.env.*
+!.env.example
+.htaccess
+/.well-known/
+*.pem
+*.key
+
+# Owner-managed content and customer inquiries
+/data/
+
+# Runtime and local files
+error_log
+*.log
+.DS_Store
+/backups/
+*.sql

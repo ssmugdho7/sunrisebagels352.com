@@ -1,0 +1,3 @@
+<?php $pageTitle='Order Online'; require __DIR__.'/library/header.php'; $s=settings(); $bannerEyebrow='SKIP THE LINE'; $bannerTitle='Order Sunrise online.'; $bannerText='Connect this page to Toast, Clover, Square, DoorDash, Uber Eats or your preferred ordering provider.'; require __DIR__.'/library/banner.php'; ?>
+<section class="empty-state shell"><div class="bagel-art"><i></i></div><h2>Online ordering is ready to connect.</h2><p>Set the Order Online URL in the Owner Dashboard. Every order button across the site updates automatically.</p><a class="btn btn-dark" href="menu.php">Browse Menu</a></section>
+<?php require __DIR__.'/library/footer.php'; ?>
